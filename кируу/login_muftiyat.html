@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2 class="header-text">КИРҮҮ</h2>
+        <form>
+            <label class="label" for="email">Колдонуучу</label>
+            <input type="email" id="email" placeholder="Введите вашу почту" required>
+
+            <label class="label" for="password">Сыр сөз</label>
+            <div class="password-container">
+                <input type="password" id="password" placeholder="Введите ваш пароль" required>
+                <button type="button" onclick="togglePasswordVisibility()">
+                    <i class="eye-icon">👁️</i>
+                </button>
+            </div>
+
+            <p class="forgot-password"><u>Забыли Пароль?</u></p>
+            <button type="submit" class="login-button">Кирүү</button>
+        </form>
+    </div>
+
+    <script>
+        function togglePasswordVisibility() {
+            const passwordField = document.getElementById("password");
+            const type = passwordField.getAttribute("type") === "password" ? "text" : "password";
+            passwordField.setAttribute("type", type);
+        }
+    </script>
+</body>
+</html>
