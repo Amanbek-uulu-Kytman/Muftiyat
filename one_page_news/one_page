@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Полная новость</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+        body {
+            margin: 0;
+            font-family: 'Montserrat', Arial, sans-serif;
+            background-color: #0F6D4B;
+            font-size: 16px;
+            line-height: 1.5;
+        }
+
+        .container {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #FFFFFF;
+            border-radius: 25px;
+        }
+
+        h1 {
+            font-size: 28px;
+            font-weight: 700;
+            margin-bottom: 20px;
+            color: #000000;
+        }
+
+        .news-image {
+            width: 100%;
+            height: auto;
+            border-radius: 25px;
+            background-color: #CCCCCC;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 18px;
+            font-weight: 400;
+            color: #000000;
+            margin-bottom: 20px;
+        }
+
+        .news-meta {
+            display: flex;
+            justify-content: space-between;
+            font-size: 14px;
+            color: #666666;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Заголовок новости</h1>
+        <div class="news-image"></div>
+        <p>
+            Полный текст новости. Здесь вы можете добавить подробности, фотографии и другую информацию,
+            чтобы посетители могли ознакомиться с полной версией новости.
+        </p>
+        <div class="news-meta">
+            <span>07/07/2024</span>
+            <span>12:00</span>
+        </div>
+    </div>
+
+</body>
+</html>
