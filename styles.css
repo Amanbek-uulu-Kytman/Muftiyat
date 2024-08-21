@@ -4,7 +4,7 @@
 
 /* Стили для хедера */
 .header-section {
-    background-color: #f8f9fa;
+    background-color: #ffffff;
     border-radius: 25px;
     margin: 20px;
     padding: 10px 20px;
@@ -17,7 +17,7 @@
 }
 
 .logo img {
-    max-height: 50px;
+    max-height: 350px;
 }
 
 .search {
